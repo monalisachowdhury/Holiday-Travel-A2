@@ -1,6 +1,11 @@
 /* Common Shared styles */
-*{
+body{
     font-family: 'Mulish', sans-serif;
+}
+h2{
+    color: #131318;
+    font-size: 40px;
+    font-weight: 800;
 }
 .primary-span{
     color: #FF5400;
@@ -63,13 +68,17 @@ nav a {
     font-size: 18px;
 }
 .banner{
-    width: 1170px;
+    width: 1400px;
     height: 500px;
     border-radius: 16px;
     background-image:url(../Images/Group\ 13\ \(1\)\ \(1\).png);
+    background-repeat: no-repeat;
+    background-size: cover;
     margin: 0 135px;
 }
 .banner-linear-gradient{
+    width: 1400px;
+    height: 500px;
     border-radius: 16px;
     background: linear-gradient(180deg, rgba(19, 19, 24, 0.80) 0%, rgba(19, 19, 24, 0.00) 100%);
 }
@@ -109,6 +118,123 @@ nav a {
 }
 #banner-btn{
     color: #FFF;
+}
+
+/* Main seleted styles */
+.popular-tour{
+    display: flex;
+    justify-content: space-between;
+    margin: 100px 135px;
+    gap: 53px;
+}
+.popular-tour-img{
+    width: 540px;
+    height: 550px;
+}
+
+.destination-content{
+    width: 673px;
+    height: 180px;
+    text-align: center;
+    margin: 0 398px;
+    
+}
+.destination-area-img{
+    width: 1420px;
+    margin: 48px 135px 0 135px;
+    
+}
+.row{
+    height: 300px;
+    display: flex;
+    gap:5px;
+    margin-top: 5px;
+}
+.row > img{
+    width: 100%;
+    height: 100%;
+}
+
+#third-row{
+    margin-top: 0;
+}
+/* relativer & absolute */
+.mal-dives-img{
+    position: relative;
+}
+.mal-dives{
+    color: #FFF;
+    font-size: 28px;
+    font-weight: 800;
+    position: absolute;
+    top: 44%;
+    right: 37%;
+}
+.indo-img{
+    position: relative;
+}
+.indo{
+    color: #FFF;
+    font-size: 28px;
+    font-weight: 800;
+    position: absolute;
+    top: 44%;
+    right: 37%;
+}
+.sri-lanka-img{
+    position: relative;
+}
+.sri-lanka{
+    color: #FFF;
+    font-size: 28px;
+    font-weight: 800;
+    position: absolute;
+    top: 44%;
+    right: 37%;
+}
+.n-america-img{
+    position: relative;
+}
+.n-america{
+    color: #FFF;
+    font-size: 28px;
+    font-weight: 800;
+    position: absolute;
+    top: 44%;
+    right: 27%;
+}
+.k-mir-img{
+    position: relative;
+}
+.k-mir{
+    color: #FFF;
+    font-size: 28px;
+    font-weight: 800;
+    position: absolute;
+    top: 44%;
+    right: 27%;
+}
+.bd-img{
+    position: relative;
+}
+.bd{
+    color: #FFF;
+    font-size: 28px;
+    font-weight: 800;
+    position: absolute;
+    top: 44%;
+    right: 29%;
+}
+.b-bon-img{
+    position: relative;
+}
+.b-bon{
+    color: #FFF;
+    font-size: 28px;
+    font-weight: 800;
+    position: absolute;
+    top: 44%;
+    right: 35%;
 }
 
 

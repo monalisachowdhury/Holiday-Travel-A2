@@ -354,11 +354,9 @@ nav a {
     backdrop-filter: blur(2.5px);
 }
 .icon-container > small{
-    color: #5A5A5D;
-    font-size: 16px;
-    font-weight: 400;
-    gap: 3px;
+    color: #5A5A5D; 
 }
+
 /* Paefect video text section */
 .parfect-place-video{
     display: flex;
@@ -389,7 +387,7 @@ nav a {
     top: 37%;
     left: 32%;
 }
-small{
+.duration{
     color: #FFF;
     padding-right: 392px;
 }
@@ -400,7 +398,7 @@ small{
 .icon-container-two > img{
     gap: 5px;
 }
-hr{
+.video-hr{
     width: 562px;
     height: 4px;
     border-radius: 8px;
@@ -410,6 +408,62 @@ hr{
 .play-icon{
     position: absolute;
     bottom: 9%;
+}
+/* form-saveup-sticker */
+.form-saveup-sticker{
+    display: flex;
+    margin: 0 135px;
+    gap: 24px;
+}
+.form{
+    width: 474px;
+    height: 350px;
+    border-radius: 16px;
+    padding: 40px;
+    background: #FFF;
+    border: 1px solid #FF5400;
+}
+.form > input{
+    width: 393px;
+    height: 52px;
+    margin: 16px 0 16px 0;
+    border-radius: 8px;   
+}
+.email-name{
+    padding-left: 5px;
+    color: rgba(19, 19, 24, 0.30);
+    border: 1px solid rgba(19, 19, 24, 0.05);
+    background: rgba(19, 19, 24, 0.05);
+}
+.save-up-img{
+    position: relative;
+}
+.save-up-sticker{
+    width: 324px;
+    height: 120px;
+    transform: rotate(-19.628deg);
+    border-radius: 16px;
+    background: #FF5400;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+}
+.Holiday-com, .save-up{
+    color: #FFF;
+    text-align: center;
+    margin: 0;
+}
+.Holiday-com{
+    font-size: 24px;
+    font-weight: 400;
+    padding-top: 15px;
+    padding-bottom: 0;
+}
+.save-up{
+    font-size: 32px;
+    font-weight: 800;
+    padding-top: 0;
+    margin: 0;
 }
 
 @media screen and (max-width:576px) {

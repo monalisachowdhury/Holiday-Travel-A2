@@ -656,7 +656,7 @@ nav a {
         margin:0 ;
     }
     .about-us-section{
-        
+        display: none;
     }
     .about-us{
         padding: 0;
@@ -674,5 +674,15 @@ nav a {
         width: 300px;
         height: 0;
         margin-top: 30;
+    }
+    .background-one,
+    .background-two,
+    .background-three{
+        width: 335px;
+        height: 500px;
+    }
+    .discount-section{
+        width: 0;
+        height: 0;
     }
 }

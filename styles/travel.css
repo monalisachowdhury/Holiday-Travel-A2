@@ -49,7 +49,7 @@ nav{
 }
 .nav-title img{
     width: 48px;
-    height: 56.008px;
+    height: 70px;
     text-align: center;
 }
 nav > ul{
@@ -542,6 +542,137 @@ nav a {
     background: rgba(19, 19, 24, 0.10);
 }
 
+.hide{
+    display: none;
+}
+.hide{
+    display: none;
+}
 @media screen and (max-width:576px) {
-    
+    /* .header{
+        width: 375px;
+        height: 64px;
+    } */
+    nav > ul{
+        display: none;
+    }
+    nav h2{
+        h2{
+            color: #131318;
+            font-size: 0;
+            font-weight: 0;
+        }
+    }
+    .banner, .banner-linear-gradient{
+        width: 365px;
+        height: 483px;
+        margin: 0;
+    }
+    .banner-title{
+      font-size: 24px;
+      font-weight: 400;  
+    padding:10px;
+    margin-top: 10px;
+    }
+    .banner-description{
+        padding: 10px;
+    }
+    .btn-select-container{
+        padding: 16px;
+        gap: 10px;
+        margin: 10px;
+    }
+    .popular-tour{
+        flex-direction: column;
+        margin: 20px;
+        gap: 10px;
+    }
+    .popular-tour > p, ul{
+        text-align: center;
+    }
+    .popular-tour-img, .popular-tour-img > img{
+        width: 335px;
+        height: 342px;
+        padding:10px  0;
+    }
+    .destination-content{
+        width: 335px;
+        height: 150px;
+        margin: 0;
+        margin-bottom: 10px;
+        padding: 0;
+    } 
+    .destination-content > p{
+        margin: 0;
+    }
+    .destination{
+        width: 300px;
+        height: 1450px;
+    }
+    .destination-area-img{
+        width: 335px;
+        margin: 100px 8px;
+    }
+    .row-two-content{
+        padding: 0;
+    }
+    .row{
+        flex-direction: column;
+        height: auto;
+    }
+    .row  img{
+        width: 100%;
+        height: 174px;
+        gap: 16px;
+    }
+    .why-choose-us{
+        flex-direction: column;
+        height: 1035px;
+    }
+    .why-choose-us  h2{
+        width: 300px;
+        margin-bottom: 0;
+    }
+    .row-two-content p{
+        width: 300px;
+        height: 0;
+    }
+    .row-two{
+        flex-direction: column;
+        margin: 0;
+    }
+    .why-choose-one, .why-choose-two, .why-choose-three{
+        width: 335px;
+        height: 289px;
+    }
+    .why-choose-one{
+        margin-top:100px ;
+    }
+    .why-choose-three{
+        margin-top: 10px;
+    }
+    .last-row-two{
+        padding: 0;
+        margin:0 ;
+    }
+    .about-us-section{
+        
+    }
+    .about-us{
+        padding: 0;
+        margin: 100px 0;
+        width: 0;
+        height: 0;
+    }
+    .about-us h2{
+        width: 300px;
+        height: 0;
+        margin-top: 220px;
+        margin-bottom: 24px;
+    }
+    .about-us p{
+        width: 300px;
+        height: 0;
+        margin-top: 30;
+    }
 }

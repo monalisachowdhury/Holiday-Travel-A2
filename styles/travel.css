@@ -236,6 +236,130 @@ nav a {
     top: 44%;
     right: 35%;
 }
+.why-choose-us{
+    width: 1440px;
+    height: 640px;
+    margin-top: 100px;
+}
+.row-two-content{
+    text-align: center;
+    padding: 0 398px;
+    gap: 24px;
+}
+.row-two{
+    display: flex;
+    margin: 0 135px;
+    gap:24px
+}
+.why-choose-one{
+    width: 573px;
+    height: 240px;
+    border-radius: 16px;
+    gap: 24px;
+    padding-top: 24px;
+    padding-left: 17px;
+    border: 1px solid rgba(251, 181, 99, 0.20);
+    background: rgba(251, 181, 99, 0.05);
+}
+.why-choose-two{
+    width: 573px;
+    height: 240px;
+    border-radius: 16px;
+    gap: 24px;
+    padding-top: 24px;
+    padding-left: 17px;
+    border-radius: 16px;
+    border: 1px solid rgba(41, 206, 246, 0.20);
+    background: rgba(41, 206, 246, 0.05);
+}
+.why-choose-three{
+    width: 573px;
+    height: 240px;
+    border-radius: 16px;
+    gap: 24px;
+    padding: 24px 17px 0 17px;
+    border-radius: 16px;
+    border: 1px solid rgba(233, 68, 68, 0.20);
+    background: rgba(233, 68, 68, 0.05);
+}
+.last-row-two{
+    margin: 24px 135px;
+    padding: 0 299px;
+}
+.discount{
+    width: 643px;
+    gap: 24px;
+    padding: 0 266px 0 266px;
+    margin: 150px 135px;
+}
+/* Deals & Discount section */
+.background-one{
+    width: 1170px;
+    height: 500px;
+    border-radius: 16px;
+    padding-top: 0;
+    margin: 30px 135px 12px 135px ;
+    position: relative;
+}
+.tour-one{
+    width: 400px;
+    height: 270px;
+    border-radius: 16px;
+    padding: 50px;
+    position: absolute;
+    top: 10%;
+    left: 50%;
+    border: 2px solid #FFF;
+    background: rgba(255, 255, 255, 0.80);
+    backdrop-filter: blur(2.5px);
+}
+.background-two{
+    width: 1170px;
+    height: 500px;
+    border-radius: 16px;
+    padding-top: 0;
+    margin: 30px 135px 12px 135px ;
+    position: relative;
+}
+.tour-two{
+    width: 400px;
+    height: 270px;
+    border-radius: 16px;
+    padding: 50px;
+    position: absolute;
+    top: 10%;
+    left: 7%;
+    border: 2px solid #FFF;
+    background: rgba(255, 255, 255, 0.80);
+    backdrop-filter: blur(2.5px);
+}
+.background-three{
+    width: 1170px;
+    height: 500px;
+    border-radius: 16px;
+    padding-top: 0;
+    margin: 30px 135px 12px 135px ;
+    position: relative;
+}
+.tour-three{
+    width: 400px;
+    height: 270px;
+    border-radius: 16px;
+    padding: 50px;
+    position: absolute;
+    top: 10%;
+    left: 50%;
+    border: 2px solid #FFF;
+    background: rgba(255, 255, 255, 0.80);
+    backdrop-filter: blur(2.5px);
+}
+.icon-container > small{
+    color: #5A5A5D;
+    font-size: 16px;
+    font-weight: 400;
+    gap: 3px;
+}
+
 
 
 @media screen and (max-width:576px) {

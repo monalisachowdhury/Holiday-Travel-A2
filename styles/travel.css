@@ -292,6 +292,46 @@ nav a {
     padding: 0 266px 0 266px;
     margin: 150px 135px;
 }
+/* our suites section */
+.about-us{
+    margin:100px 135px 0 135px ;
+    width: 640px;
+    height: 280px;
+    text-align: center;
+    padding: 0 398px;
+}
+.our-suites-title{
+    border-left: 5px solid #FF5400;
+    padding: 20px;
+}
+.our-suites{
+    width: 1170px;
+    height: 500px;
+    display: flex;
+    margin: 12px 135px 0 135px;
+    padding-bottom: 0;
+    border-radius: 16px;
+    border: 1px solid rgba(41, 206, 246, 0.20);
+    background: rgba(41, 206, 246, 0.05);
+}
+.Suites-content{
+    width: 300px;
+    padding-left: 24px;
+    padding-right: 50px;
+    padding-top: 50px;
+}
+.btn-hover:hover{
+    background: rgb(224, 79, 63);
+}
+.Suites-img{
+    padding-top: 100px;
+}
+.Suites-img > img{
+    width: 374px;
+    height: 286px;
+    border-radius: 16px;;
+    background: linear-gradient(0deg, rgba(19, 19, 24, 0.20) 0%, rgba(19, 19, 24, 0.20) 100%), url(<path-to-image>), lightgray 50% / cover no-repeat;
+}
 /* Deals & Discount section */
 .background-one{
     width: 1170px;
@@ -464,6 +504,42 @@ nav a {
     font-weight: 800;
     padding-top: 0;
     margin: 0;
+}
+/* footer-section */
+.footer-section{
+    width: 1600px;
+    height: 504px;
+    margin-top: 100px;
+    margin-left: 0;
+    background: rgba(19, 19, 24, 0.05);
+}
+.plen-logo{
+    display: flex;
+    /* text-align: center; */
+    padding: 70px 599px 0 700px;
+    margin-bottom: 0;
+    gap: 5px;
+}
+.footer-description{
+    text-align: center;
+    padding-top: 0;
+}
+.Social-link{
+    text-align: center;
+    margin-top: 24px;
+}
+.copy-right{
+    text-align: center;
+    padding-top:150px ;
+    color: #131318;
+    font-size: 16px;
+    font-weight: 300;
+}
+.footer-hr{
+    width: 872px;
+    height: 1px;
+    margin-top: 50px;
+    background: rgba(19, 19, 24, 0.10);
 }
 
 @media screen and (max-width:576px) {

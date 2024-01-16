@@ -359,8 +359,58 @@ nav a {
     font-weight: 400;
     gap: 3px;
 }
-
-
+/* Paefect video text section */
+.parfect-place-video{
+    display: flex;
+    margin: 100px 135px; 
+}
+.video-text-container{
+    width: 610px;
+    height: 424px;
+    padding-right:24px;
+}
+.video-container{
+    width: 610px;
+    height: 424px;
+    border-radius: 16px;
+    position: relative;
+}
+.video-linear-gradient{
+    width: 610px;
+    height: 424px;
+    border-radius: 16px;
+    background: linear-gradient(180deg, #131318 -31.96%, rgba(19, 19, 24, 0.00) 100%);
+}
+.video-text{
+    color: #FFF;
+    font-size: 24px;
+    font-weight: 700;
+    position: absolute;
+    top: 37%;
+    left: 32%;
+}
+small{
+    color: #FFF;
+    padding-right: 392px;
+}
+.icon-container-two{
+    position: absolute;
+    top: 80%;
+}
+.icon-container-two > img{
+    gap: 5px;
+}
+hr{
+    width: 562px;
+    height: 4px;
+    border-radius: 8px;
+    background: rgba(255, 255, 255, 0.30);
+    position: relative;
+}
+.play-icon{
+    position: absolute;
+    bottom: 9%;
+}
 
 @media screen and (max-width:576px) {
     
